@@ -8,7 +8,10 @@ from . import views
 
 
 router = DefaultRouter()
-router.register(r'users', views.HospitalViwsSet,basename="HospitalViwsSet")
+router.register(r'users', views.HospitalViewsSet,basename="HospitalViewsSet")
+router.register(r'departments', views.DepertmentViewsSet,basename="DepertmentViewsSet")
+router.register(r'Staffviewsset', views.StaffViewsSet,basename="StaffViewsSet")
+
 urlpatterns = [
     #path('roles/', views.UserRoleListView.as_view(), name='user_roles'),
     path('hospital/', include(router.urls)),
