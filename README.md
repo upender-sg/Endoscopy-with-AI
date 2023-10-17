@@ -1,2 +1,2 @@
-# aimediScope
-ai  in medical image/video process
+# Artificial Intelligence MediScope
+AI  in medical image/video process
