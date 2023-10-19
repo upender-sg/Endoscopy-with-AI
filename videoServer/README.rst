@@ -1,7 +1,7 @@
 Audio, video and data channel server
 ====================================
 
-This example illustrates establishing audio, video and a data channel with a
+This example illustrates establishing audio, video, and a data channel with a
 browser. It also performs some image processing on the video frames using
 OpenCV.
 
