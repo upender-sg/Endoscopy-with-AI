@@ -44,6 +44,7 @@ INSTALLED_APPS = [
       'generic',
       'hospitalmanager',
       'account',
+    #'django.contrib.staticfiles'
 ]
 
 MIDDLEWARE = [
