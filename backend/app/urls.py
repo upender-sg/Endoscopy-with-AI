@@ -14,5 +14,5 @@ urlpatterns = [
     path('admin/', admin.site.urls), 
     path('', schema_view),
     path('user/', include('account.urls')),
-      path('hospital/', include('hospitalmanager.urls')),
+    path('hospital/', include('hospitalmanager.urls')),
 ]
