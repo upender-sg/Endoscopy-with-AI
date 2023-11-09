@@ -1,4 +1,4 @@
-from django.apps import AppConfig
+from django.apps import AppConfig # need to include a few more necessary modules here!
 
 
 class GeniricConfig(AppConfig):
