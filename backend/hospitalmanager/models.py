@@ -26,6 +26,7 @@ class StaffModel(UUIDModel, TimeStampedModel):
     phone = models.CharField(max_length=20, default='')
     speciality =  models.TextField(default='')
     status = models.IntegerField(default=1)
+    
 
 
 
