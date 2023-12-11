@@ -16,5 +16,4 @@ urlpatterns = [
     path('user/', include('account.urls')),
     path('hospital/', include('hospitalmanager.urls')),
     path('/verify','verification.urls'),
- 
 ]
