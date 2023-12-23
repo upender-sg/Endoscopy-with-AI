@@ -7,8 +7,6 @@ from rest_framework import permissions
 
 
 schema_view = get_swagger_view(title='AI ENDOSCOPY API')
-
-
  
 urlpatterns = [
     path('admin/', admin.site.urls), 
