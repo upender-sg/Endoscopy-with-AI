@@ -33,3 +33,5 @@ class User(auth_models.AbstractBaseUser, auth_models.PermissionsMixin, generic_m
     objects = managers.UserManager()
 
     USERNAME_FIELD = 'email'
+
+
