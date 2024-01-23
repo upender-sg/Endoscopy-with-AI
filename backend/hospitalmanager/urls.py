@@ -15,5 +15,7 @@ router.register(r'Staffviewsset', views.StaffViewsSet,basename="StaffViewsSet")
 urlpatterns = [
     #path('roles/', views.UserRoleListView.as_view(), name='user_roles'),
     path('hospital/', include(router.urls)),
+
+
     
 ]
