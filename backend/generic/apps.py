@@ -6,5 +6,3 @@ class GeniricConfig(AppConfig):
     name = 'generic'
 
 
-
-
