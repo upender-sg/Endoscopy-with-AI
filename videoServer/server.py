@@ -19,9 +19,6 @@ logger = logging.getLogger("pc")
 pcs = set()
 relay = MediaRelay()
 
-
-
-
 class VideoTransformTrack(MediaStreamTrack):
     """
     A video stream track that transforms frames from an another track.
