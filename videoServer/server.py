@@ -6,8 +6,6 @@ import os
 import ssl
 import uuid
 
-
-
 import cv2
 from aiohttp import web
 from av import VideoFrame
